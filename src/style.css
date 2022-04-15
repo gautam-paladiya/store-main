@@ -1,0 +1,79 @@
+.addAgent__topButtonIcon{
+    cursor: pointer;
+}
+
+
+
+@media (max-width:1199.9px){
+
+}
+
+@media (max-width:991.9px){
+
+}
+
+@media (max-width:767.9px){
+
+}
+
+@media (max-width:575.9px){
+    .custom-card {
+        width: 100%;
+    }
+
+    .otp-input{
+        margin: 0 .25rem;
+        width: 40px;
+        height: 40px;
+        padding: .3rem;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 1.35rem;
+    }
+
+    .success_div{
+        background-position: right;
+        background-size: cover;
+    }
+    
+    .light-bg{
+        padding: 0 16px;
+    }
+
+    .addAgent__individualDiv{
+        width: 100%;
+    }
+}
+
+@media (max-width:400px){
+    .otp-input{
+        width: 30px;
+        height: 30px;
+    }
+
+    .search-input{
+        width: 100%;
+    }
+
+    .search-input input{
+        width: 100%;
+    }
+
+    .filter-btn img{
+        width: 1rem;
+    }
+
+    .btn{
+        font-size: 14px;
+    }
+
+    .addAgent__button{
+        width: 90%;
+    }
+}
+
+
+
+

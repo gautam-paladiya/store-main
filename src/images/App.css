@@ -1,0 +1,146 @@
+body {
+  overflow-x: hidden;
+}
+
+* {
+  font-family: Poppins;
+  margin: 0;
+  padding: 0;
+}
+.button {
+  width: 32vw;
+  height: 40px;
+  background-color: #ff812d;
+  color: white;
+  font-weight: bold;
+}
+
+.title {
+  color: #252733;
+  font-weight: bold;
+}
+.light-grey {
+  color: #797979;
+}
+.custom-card {
+  padding: 20px 35px;
+}
+.otp-input {
+  background-color: #eeeeee;
+  width: 50px;
+  height: 50px;
+}
+
+.height-100 {
+  height: 500px;
+}
+
+.bg-image {
+  background-image: url("images/base-bg.png");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.custom-dropdown {
+  background-color: #fff9f6;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  color: #252733;
+  width: 200px;
+  align-items: center;
+  border-radius: 50px;
+  padding-right: 10px;
+}
+
+.light-bg {
+  background-color: #f3f3f3;
+  padding: 0px 50px;
+}
+
+.button-dashboard {
+  background-color: #f86606;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.table-head {
+  background-color: #f86606;
+  margin: 0;
+}
+.table-body {
+  background-color: white;
+  margin: 0;
+  /* color: #fd660121; */
+}
+.success_div {
+  background-image: url("images/bg-success.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.search-input img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 14px;
+  width: 1rem;
+}
+
+.search-input input {
+  font-size: 14px;
+  width: 22rem;
+  height: 2.4rem;
+  border: 1px solid #ced4da;
+}
+
+.addAgent__individualDiv {
+  width: 90%;
+}
+.addAgent__button {
+  background-color: #fd6b09;
+  width: 280px;
+}
+.addAgent__topButton {
+  width: 100%;
+  background: #fd6b09;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addAgent__topButtonIcon{
+  position: absolute;
+  left: 5%;
+}
+.addAgent__deleteIcon{
+  position: relative;
+  top:30px;
+  left:40px
+}
+.addAgent__deleteIconDiv{
+  margin-top: -36px;
+}
+.radio_button{
+  color: #fd6b09;
+}
+
+.addAgent__h2 {
+  width: 80%; 
+  text-align: center; 
+  border-bottom: 1px solid #fd6b09; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+  color: #fd6b09;
+  margin-top: 80px;
+} 
+
+.addAgent__h2 span { 
+   background:#fff; 
+   padding:0 10px;
+   /* color: #f3f3f3; */
+    
+}
